@@ -27,6 +27,12 @@ class Square implements Shape{
   num get area => pow(side, 2);
 }
 
+
+class CircleMock implements Circle {
+  num area;
+  num radius;
+}
+
 int main(){
   final circle = shapeFactory('circle');
   final square = shapeFactory('square');
