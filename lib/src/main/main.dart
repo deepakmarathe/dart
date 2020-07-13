@@ -1,4 +1,13 @@
 
+// Importing core libraries
+import 'dart:math';
+
+// Importing libraries from external packages
+
+// Importing files
+import 'fibonacci.dart';
+
+
 var name = 'Voyager I';
 var year = 1977;
 var antennaDiameter = 3.7;
