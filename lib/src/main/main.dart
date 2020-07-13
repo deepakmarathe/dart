@@ -23,7 +23,6 @@ int fibonacci(int n){
 }
 var result = fibonacci(20);
 
-
 /* comments */
 // This is a normal, one-line comment.
 
@@ -35,6 +34,7 @@ var result = fibonacci(20);
 
 void main(){
   print('Hello World, fibonacci 20 is : $result');
+  print('Fibonacci(20) : $result');
 
   if (year >= 2001) {
     print('21st century');
