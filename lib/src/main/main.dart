@@ -6,6 +6,7 @@ import 'dart:math';
 
 // Importing files
 import 'fibonacci.dart';
+import 'spacecraft.dart';
 
 
 var name = 'Voyager I';
@@ -33,6 +34,14 @@ var result = fibonacci(20);
 /* Comments like these are also supported. */
 
 void main(){
+
+  var voyager = Spacecraft('Voyager I', DateTime(1977,9, 5));
+  voyager.describe();
+
+  var voyager3 = Spacecraft.unlaunched('Voyager III');
+  voyager3.describe();
+
+
   print('Hello World, fibonacci 20 is : $result');
   print('Fibonacci(20) : $result');
 
