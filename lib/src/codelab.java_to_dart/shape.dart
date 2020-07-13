@@ -41,8 +41,11 @@ int main(){
   print(circle.area);
   print(square.area);
 
+  //functional programming
   final values = [1,2,3,5,10,50];
-  for(var length in values){
-    print(scream(length));
-  }
+  values.map((e) => scream(e)).forEach((element) {print(element)});
+
+//  for(var length in values){
+//    print(scream(length));
+//  }
 }
