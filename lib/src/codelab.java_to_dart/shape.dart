@@ -33,9 +33,16 @@ class CircleMock implements Circle {
   num radius;
 }
 
+String scream(int length) => "A${'a' * length}h!";
+
 int main(){
   final circle = shapeFactory('circle');
   final square = shapeFactory('square');
   print(circle.area);
   print(square.area);
+
+  final values = [1,2,3,5,10,50];
+  for(var length in values){
+    print(scream(length));
+  }
 }
