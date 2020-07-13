@@ -14,6 +14,16 @@ int fibonacci(int n){
 }
 var result = fibonacci(20);
 
+
+/* comments */
+// This is a normal, one-line comment.
+
+/// This is a documentation comment, used to document libraries,
+/// classes, and their members. Tools like IDEs and dartdoc treat
+/// doc comments specially.
+
+/* Comments like these are also supported. */
+
 void main(){
   print('Hello World, fibonacci 20 is : $result');
 
